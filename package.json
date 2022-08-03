@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "--- Anotacoes ---\r * Conceito de recurso, cada recurso tem uma URI\r * /livros /autores /editoras\r * Comunicacao stateless ( nao guarda estado )",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/PedroBVictor/API_rest#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }

@@ -1,11 +1,8 @@
-const http = require('http');
-const port = 8080;
+import app from "./src/app.js";
 
-const server = http.createServer((req, res) => {
-   res.writeHead('200', {'Content-Type': 'text/plain'});
-   res.end('API REST Livraria');
-})
+const port = process.env.PORT || 8080;
 
-server.listen(port, () => {
+
+app.listen(port, () => {
    console.log(`Server online: port - http://localhost:${port}`);
 })
