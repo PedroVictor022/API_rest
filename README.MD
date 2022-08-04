@@ -6,3 +6,9 @@
 
 ## CRUD
 -> Buscar livros, buscar livro especifico, criar novo livro, editar informacao de livros, excluir um livro
+-> Funcao de buscar livros
+
+## Mongoose
+* Iniciando com mongoose
+   -> Conectando com banco de dados
+   -> Criando Schema

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/PedroBVictor/API_rest#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "mongoose": "^6.5.1",
     "nodemon": "^2.0.19"
   }
 }
