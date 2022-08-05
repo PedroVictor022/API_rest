@@ -11,4 +11,8 @@
 ## Mongoose
 * Iniciando com mongoose
    -> Conectando com banco de dados
-   -> Criando Schema
+   -> Criando Schema para coleções no Banco de Dados
+   -> Fazer conexão do Banco de Dados com a API
+
+## Controller 
+* São intermediarios entre views e banco de dados
