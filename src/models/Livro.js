@@ -12,4 +12,4 @@ const livrosSchema = new mongoose.Schema(
 
 // A colecao no banco de dados, chama livros e segue o formato de livrosSchema
 const livros = mongoose.model('livros', livrosSchema);
-export default livros;
+export default livros; 
