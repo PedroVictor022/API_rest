@@ -9,7 +9,7 @@ db.once("open", () => {
 });
 
 const app = express();
-app.use(express.json()) 
+app.use(express.json())
 routes(app)
 
 export default app;

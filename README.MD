@@ -7,6 +7,9 @@
 ## CRUD
 -> Buscar livros, buscar livro especifico, criar novo livro, editar informacao de livros, excluir um livro
 -> Funcao de buscar livros
+-> Busca por ID
+-> Update livros
+-> Delete livros
 
 ## Mongoose
 * Iniciando com mongoose
