@@ -1,9 +1,9 @@
-import { Schema, model } from "mongoose";
+import mongoose from "mongoose";
 
-const autorSchema = new Schema(
+const autorSchema = new mongoose.Schema(
    {
       id: {type: String},
-      nome: {type: String, required},
+      nome: {type: String, required: true},
       nacionalidade: {type: String}
    },
    {
@@ -11,6 +11,6 @@ const autorSchema = new Schema(
    }
 )
 
-const autores = model("autores", autorSchema);
+const autores = mongoose.model("autores", autorSchema);
 
 export default autores;

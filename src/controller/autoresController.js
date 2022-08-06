@@ -1,4 +1,4 @@
-import autores from "../models/Autor";
+import autores from "../models/Autor.js";
 
 class AutoresController {
 
